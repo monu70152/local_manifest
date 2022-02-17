@@ -5,9 +5,9 @@
           fetch="https://github.com/monu70152" />
 
   <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="monu70152" revision="master" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="monu70152" revision="twelve" />
-        <project path="vendor/asus" name="vendor_asus_X00TD" remote="monu70152" revision="twelve" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="monu70152" revision="twelve" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="github" revision="master" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="github" revision="twelve" />
+        <project path="vendor/asus" name="vendor_asus_X00TD" remote="github" revision="twelve" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="github" revision="twelve" />
 
 </manifest>
