@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+  <remote name="monu70152"
+          fetch="https://github.com/monu70152" />
+
+  <!-- Sync trees -->
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="monu70152" revision="master" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="asus_sdm660-common" remote="monu70152" revision="test" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="monu70152" revision="master" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="monu70152" revision="master" clone-depth="1" />
+
+</manifest>
