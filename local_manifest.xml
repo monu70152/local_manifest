@@ -6,8 +6,8 @@
 
   <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="monu70152" revision="master" clone-depth="1" />
-        <project path="device/asus/sdm660-common" name="asus_sdm660-common" remote="monu70152" revision="test" clone-depth="1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="monu70152" revision="master" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="monu70152" revision="master" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="monu70152" revision="twelve" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus_X00TD" remote="monu70152" revision="twelve" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="monu70152" revision="twelve" clone-depth="1" />
 
 </manifest>
