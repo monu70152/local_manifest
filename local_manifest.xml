@@ -3,13 +3,12 @@
           
   <remote name="monu70152"
           fetch="https://github.com/monu70152" />
-  <remote name="nerdhannn"
-          fetch="https://github.com/nerdhannn" />
+
           
   <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="monu70152" revision="cherish" clone-depth="1" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="monu70152" revision="twelve" clone-depth="1" />
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="monu70152" revision="twelve" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="nerdhannn" revision="r6/hmp" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="monu70152" revision="hackneyed" clone-depth="1" />
 
 </manifest>
