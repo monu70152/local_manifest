@@ -12,8 +12,11 @@
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="monu70152" revision="twelve" clone-depth="1" />
   <!-- Kernel -->
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="monu70152" revision="hackneyed" clone-depth="1" />
+        
   <!-- Replacements -->
+  
   <!-- wlan -->
         <remove-project name="android_hardware_qcom_wlan"/>
          <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="monu70152" revision="12.x-caf"/>
+         
 </manifest>
