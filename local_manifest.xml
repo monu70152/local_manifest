@@ -5,7 +5,7 @@
           fetch="https://github.com/monu70152" />
           
   <!-- Device trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="monu70152" revision="arcana" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="monu70152" revision="blaze" clone-depth="1" />
   <!-- Common-Tree -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="monu70152" revision="twelve" clone-depth="1" />
   <!-- Vendor -->
