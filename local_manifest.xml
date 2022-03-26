@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
-  <remote name="monu70152"
+  <!-- Remote -->
+         <remote name="monu70152"
           fetch="https://github.com/monu70152" />
           
   <!-- Device trees -->
@@ -12,4 +12,8 @@
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="monu70152" revision="twelve" clone-depth="1" />
   <!-- Kernel -->
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-1" remote="monu70152" revision="r6/hmp" clone-depth="1" />
+  <!-- Remove -->
+  
+  <!-- Replacement -->
+  
 </manifest>
