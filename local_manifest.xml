@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
+ <!-- Remote -->
   <remote name="monu70152"
           fetch="https://github.com/monu70152" />
+  <remote name="PB"
+          fetch="https://github.com/ProjectBlaze" />
           
   <!-- Device trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="monu70152" revision="blaze" clone-depth="1" />
   <!-- Common-Tree -->
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="monu70152" revision="twelve" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="monu70152" revision="test" clone-depth="1" />
   <!-- Vendor -->
-        <project path="vendor/asus" name="vendor_asus_X00TD" remote="monu70152" revision="twelve" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus_X00TD" remote="monu70152" revision="test" clone-depth="1" />
   <!-- Kernel -->
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-1" remote="monu70152" revision="r6/hmp" clone-depth="1" />
+  <!-- remove -->
+      	<remove-project name="packages_apps_Nfc" />
+	<!-- replacements -->
+	      <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="PB" revision="12.1" />
+        
 </manifest>
