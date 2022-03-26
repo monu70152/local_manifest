@@ -15,8 +15,7 @@
   <!-- Kernel -->
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-1" remote="monu70152" revision="r6/hmp" clone-depth="1" />
   <!-- remove -->
-      	<remove-project name="packages_apps_Nfc" />
+      	
 	<!-- replacements -->
-	      <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="PB" revision="12.1" />
-        
+	      
 </manifest>
