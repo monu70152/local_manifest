@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-          
-  <remote name="monu70152"
+  <!-- Remote -->
+         <remote name="monu70152"
           fetch="https://github.com/monu70152" />
           
-  <!-- Sync trees -->
+  <!-- Device trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="monu70152" revision="arcana" clone-depth="1" />
+  <!-- Common-Tree -->
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_snow" remote="monu70152" revision="twelve" clone-depth="1" />
+  <!-- Vendor -->
         <project path="vendor/asus" name="vendor_asus_X00TD" remote="monu70152" revision="twelve" clone-depth="1" />
+  <!-- Kernel -->
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660-1" remote="monu70152" revision="r6/hmp" clone-depth="1" />
-        
- 
-       <remove-project name="vendor_aosp_rro_overlays" />
+  <!-- Replacement -->      
+        <remove-project name="platform_frameworks_base"/>
+        <project path="frameworks/base" name="platform_frameworks_base" remote="monu70152" revision="12.x-wip" />
+        <remove-project name="platform_packages_apps_Settings"/>
+        <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="monu70152" revision="12.x-wip" />
 
 </manifest>
